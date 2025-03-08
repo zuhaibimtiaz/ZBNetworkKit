@@ -1,0 +1,4685 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ZBNetworkKitFramework",
+    "printedName": "ZBNetworkKitFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Log",
+        "printedName": "Log",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Level",
+            "printedName": "Level",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBNetworkKitFramework.Log.Level.Type) -> ZBNetworkKitFramework.Log.Level",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Level",
+                        "printedName": "ZBNetworkKitFramework.Log.Level",
+                        "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBNetworkKitFramework.Log.Level.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Level",
+                            "printedName": "ZBNetworkKitFramework.Log.Level",
+                            "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21ZBNetworkKitFramework3LogO5LevelO5erroryA2EmF",
+                "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO5erroryA2EmF",
+                "moduleName": "ZBNetworkKitFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "warning",
+                "printedName": "warning",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBNetworkKitFramework.Log.Level.Type) -> ZBNetworkKitFramework.Log.Level",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Level",
+                        "printedName": "ZBNetworkKitFramework.Log.Level",
+                        "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBNetworkKitFramework.Log.Level.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Level",
+                            "printedName": "ZBNetworkKitFramework.Log.Level",
+                            "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21ZBNetworkKitFramework3LogO5LevelO7warningyA2EmF",
+                "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO7warningyA2EmF",
+                "moduleName": "ZBNetworkKitFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "info",
+                "printedName": "info",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBNetworkKitFramework.Log.Level.Type) -> ZBNetworkKitFramework.Log.Level",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Level",
+                        "printedName": "ZBNetworkKitFramework.Log.Level",
+                        "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBNetworkKitFramework.Log.Level.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Level",
+                            "printedName": "ZBNetworkKitFramework.Log.Level",
+                            "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21ZBNetworkKitFramework3LogO5LevelO4infoyA2EmF",
+                "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO4infoyA2EmF",
+                "moduleName": "ZBNetworkKitFramework"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Level",
+                    "printedName": "ZBNetworkKitFramework.Log.Level",
+                    "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Level",
+                    "printedName": "ZBNetworkKitFramework.Log.Level",
+                    "usr": "s:21ZBNetworkKitFramework3LogO5LevelO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:21ZBNetworkKitFramework3LogO5LevelO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO2eeoiySbAE_AEtFZ",
+                "moduleName": "ZBNetworkKitFramework",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ZBNetworkKitFramework3LogO5LevelO9hashValueSivp",
+                "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO9hashValueSivp",
+                "moduleName": "ZBNetworkKitFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ZBNetworkKitFramework3LogO5LevelO9hashValueSivg",
+                    "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO9hashValueSivg",
+                    "moduleName": "ZBNetworkKitFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:21ZBNetworkKitFramework3LogO5LevelO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO4hash4intoys6HasherVz_tF",
+                "moduleName": "ZBNetworkKitFramework",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:21ZBNetworkKitFramework3LogO5LevelO",
+            "mangledName": "$s21ZBNetworkKitFramework3LogO5LevelO",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Context",
+            "printedName": "Context",
+            "declKind": "Struct",
+            "usr": "s:21ZBNetworkKitFramework3LogO7ContextV",
+            "mangledName": "$s21ZBNetworkKitFramework3LogO7ContextV",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:shouldLogContext:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework3LogO4info_06shouldD7Context4file8function4lineySS_SbS2SSitFZ",
+            "mangledName": "$s21ZBNetworkKitFramework3LogO4info_06shouldD7Context4file8function4lineySS_SbS2SSitFZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warning",
+            "printedName": "warning(_:shouldLogContext:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework3LogO7warning_06shouldD7Context4file8function4lineySS_SbS2SSitFZ",
+            "mangledName": "$s21ZBNetworkKitFramework3LogO7warning_06shouldD7Context4file8function4lineySS_SbS2SSitFZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:shouldLogContext:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework3LogO5error_06shouldD7Context4file8function4lineySS_SbS2SSitFZ",
+            "mangledName": "$s21ZBNetworkKitFramework3LogO5error_06shouldD7Context4file8function4lineySS_SbS2SSitFZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21ZBNetworkKitFramework3LogO",
+        "mangledName": "$s21ZBNetworkKitFramework3LogO",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBAPIError",
+        "printedName": "ZBAPIError",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ZBErrorModel",
+            "printedName": "ZBErrorModel",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBErrorModel",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.ZBErrorModel",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO12ZBErrorModelV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBErrorModel",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.ZBErrorModel",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO12ZBErrorModelV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO12ZBErrorModelV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO12ZBErrorModelV2eeoiySbAE_AEtFZ",
+                "moduleName": "ZBNetworkKitFramework",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO12ZBErrorModelV",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO12ZBErrorModelV",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> (Swift.String) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZBNetworkKitFramework.ZBAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO12networkErroryACSScACmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO12networkErroryACSScACmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBAPIError",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO12unauthorizedyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO12unauthorizedyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidRequest",
+            "printedName": "invalidRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBAPIError",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO14invalidRequestyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO14invalidRequestyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "tokenRefreshFailed",
+            "printedName": "tokenRefreshFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBAPIError",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO18tokenRefreshFailedyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO18tokenRefreshFailedyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "sslPinningFailed",
+            "printedName": "sslPinningFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBAPIError",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO16sslPinningFailedyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO16sslPinningFailedyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> (Swift.String) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ZBNetworkKitFramework.ZBAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO13decodingErroryACSScACmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO13decodingErroryACSScACmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBAPIError",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO7timeoutyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO7timeoutyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "cancelled",
+            "printedName": "cancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBAPIError",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO9cancelledyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO9cancelledyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.ZBAPIError.Type) -> (ZBNetworkKitFramework.ZBAPIError.ZBErrorModel) -> ZBNetworkKitFramework.ZBAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBNetworkKitFramework.ZBAPIError.ZBErrorModel) -> ZBNetworkKitFramework.ZBAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(model: ZBNetworkKitFramework.ZBAPIError.ZBErrorModel)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBErrorModel",
+                            "printedName": "ZBNetworkKitFramework.ZBAPIError.ZBErrorModel",
+                            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO12ZBErrorModelV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO6customyA2C12ZBErrorModelV_tcACmF",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO6customyA2C12ZBErrorModelV_tcACmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO20localizedDescriptionSSvp",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO20localizedDescriptionSSvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO20localizedDescriptionSSvg",
+                "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO20localizedDescriptionSSvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBAPIError",
+                "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBAPIError",
+                "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO",
+        "mangledName": "$s21ZBNetworkKitFramework10ZBAPIErrorO",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBEndpointProvider",
+        "printedName": "ZBEndpointProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "scheme",
+            "printedName": "scheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP6schemeSSvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP6schemeSSvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP6schemeSSvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP6schemeSSvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP7baseURLSSvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP7baseURLSSvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP7baseURLSSvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP7baseURLSSvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP4pathSSvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP4pathSSvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP4pathSSvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP4pathSSvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestMethod",
+                "printedName": "ZBNetworkKitFramework.RequestMethod",
+                "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP6methodAA13RequestMethodOvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP6methodAA13RequestMethodOvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod",
+                    "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP6methodAA13RequestMethodOvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP6methodAA13RequestMethodOvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryItems",
+            "printedName": "queryItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.URLQueryItem]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.URLQueryItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLQueryItem",
+                        "printedName": "Foundation.URLQueryItem",
+                        "usr": "s:10Foundation12URLQueryItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP10queryItemsSay10Foundation12URLQueryItemVGSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP10queryItemsSay10Foundation12URLQueryItemVGSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.URLQueryItem]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.URLQueryItem]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLQueryItem",
+                            "printedName": "Foundation.URLQueryItem",
+                            "usr": "s:10Foundation12URLQueryItemV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP10queryItemsSay10Foundation12URLQueryItemVGSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP10queryItemsSay10Foundation12URLQueryItemVGSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP7headersSDyS2SGSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP7headersSDyS2SGSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP7headersSDyS2SGSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP7headersSDyS2SGSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP10parametersSDySSypGSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP10parametersSDySSypGSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP10parametersSDySSypGSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP10parametersSDySSypGSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "encodedParams",
+            "printedName": "encodedParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Encodable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encodable",
+                    "printedName": "any Swift.Encodable",
+                    "usr": "s:SE"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP13encodedParamsSE_pSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP13encodedParamsSE_pSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Encodable)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encodable",
+                        "printedName": "any Swift.Encodable",
+                        "usr": "s:SE"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP13encodedParamsSE_pSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP13encodedParamsSE_pSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "multipart",
+            "printedName": "multipart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZBNetworkKitFramework.ZBMultipartRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBMultipartRequest",
+                    "printedName": "ZBNetworkKitFramework.ZBMultipartRequest",
+                    "usr": "s:21ZBNetworkKitFramework18ZBMultipartRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP9multipartAA18ZBMultipartRequestVSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP9multipartAA18ZBMultipartRequestVSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZBNetworkKitFramework.ZBMultipartRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBMultipartRequest",
+                        "printedName": "ZBNetworkKitFramework.ZBMultipartRequest",
+                        "usr": "s:21ZBNetworkKitFramework18ZBMultipartRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP9multipartAA18ZBMultipartRequestVSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP9multipartAA18ZBMultipartRequestVSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadData",
+            "printedName": "uploadData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP10uploadData10Foundation0G0VSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP10uploadData10Foundation0G0VSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP10uploadData10Foundation0G0VSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP10uploadData10Foundation0G0VSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessTokenRequired",
+            "printedName": "accessTokenRequired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP19accessTokenRequiredSbvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP19accessTokenRequiredSbvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP19accessTokenRequiredSbvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP19accessTokenRequiredSbvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutInterval",
+            "printedName": "timeoutInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP15timeoutIntervalSdSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP15timeoutIntervalSdSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP15timeoutIntervalSdSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP15timeoutIntervalSdSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interceptors",
+            "printedName": "interceptors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any ZBNetworkKitFramework.ZBInterceptor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBInterceptor",
+                    "printedName": "any ZBNetworkKitFramework.ZBInterceptor",
+                    "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP12interceptorsSayAA13ZBInterceptor_pGvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP12interceptorsSayAA13ZBInterceptor_pGvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any ZBNetworkKitFramework.ZBInterceptor]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBInterceptor",
+                        "printedName": "any ZBNetworkKitFramework.ZBInterceptor",
+                        "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP12interceptorsSayAA13ZBInterceptor_pGvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP12interceptorsSayAA13ZBInterceptor_pGvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "buildURLRequest",
+            "printedName": "buildURLRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP15buildURLRequest10Foundation0G0VyKF",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP15buildURLRequest10Foundation0G0VyKF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "scheme",
+            "printedName": "scheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE6schemeSSvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE6schemeSSvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE6schemeSSvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE6schemeSSvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE7baseURLSSvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE7baseURLSSvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE7baseURLSSvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE7baseURLSSvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryItems",
+            "printedName": "queryItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.URLQueryItem]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.URLQueryItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLQueryItem",
+                        "printedName": "Foundation.URLQueryItem",
+                        "usr": "s:10Foundation12URLQueryItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE10queryItemsSay10Foundation12URLQueryItemVGSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE10queryItemsSay10Foundation12URLQueryItemVGSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.URLQueryItem]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.URLQueryItem]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLQueryItem",
+                            "printedName": "Foundation.URLQueryItem",
+                            "usr": "s:10Foundation12URLQueryItemV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE10queryItemsSay10Foundation12URLQueryItemVGSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE10queryItemsSay10Foundation12URLQueryItemVGSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE7headersSDyS2SGSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE7headersSDyS2SGSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE7headersSDyS2SGSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE7headersSDyS2SGSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE10parametersSDySSypGSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE10parametersSDySSypGSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE10parametersSDySSypGSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE10parametersSDySSypGSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "encodedParams",
+            "printedName": "encodedParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Encodable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encodable",
+                    "printedName": "any Swift.Encodable",
+                    "usr": "s:SE"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE13encodedParamsSE_pSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE13encodedParamsSE_pSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Encodable)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encodable",
+                        "printedName": "any Swift.Encodable",
+                        "usr": "s:SE"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE13encodedParamsSE_pSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE13encodedParamsSE_pSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "multipart",
+            "printedName": "multipart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZBNetworkKitFramework.ZBMultipartRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBMultipartRequest",
+                    "printedName": "ZBNetworkKitFramework.ZBMultipartRequest",
+                    "usr": "s:21ZBNetworkKitFramework18ZBMultipartRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE9multipartAA18ZBMultipartRequestVSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE9multipartAA18ZBMultipartRequestVSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZBNetworkKitFramework.ZBMultipartRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBMultipartRequest",
+                        "printedName": "ZBNetworkKitFramework.ZBMultipartRequest",
+                        "usr": "s:21ZBNetworkKitFramework18ZBMultipartRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE9multipartAA18ZBMultipartRequestVSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE9multipartAA18ZBMultipartRequestVSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadData",
+            "printedName": "uploadData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE10uploadData10Foundation0G0VSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE10uploadData10Foundation0G0VSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE10uploadData10Foundation0G0VSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE10uploadData10Foundation0G0VSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessTokenRequired",
+            "printedName": "accessTokenRequired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE19accessTokenRequiredSbvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE19accessTokenRequiredSbvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE19accessTokenRequiredSbvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE19accessTokenRequiredSbvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutInterval",
+            "printedName": "timeoutInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE15timeoutIntervalSdSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE15timeoutIntervalSdSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE15timeoutIntervalSdSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE15timeoutIntervalSdSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interceptors",
+            "printedName": "interceptors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any ZBNetworkKitFramework.ZBInterceptor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBInterceptor",
+                    "printedName": "any ZBNetworkKitFramework.ZBInterceptor",
+                    "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE12interceptorsSayAA13ZBInterceptor_pGvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE12interceptorsSayAA13ZBInterceptor_pGvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any ZBNetworkKitFramework.ZBInterceptor]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBInterceptor",
+                        "printedName": "any ZBNetworkKitFramework.ZBInterceptor",
+                        "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE12interceptorsSayAA13ZBInterceptor_pGvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE12interceptorsSayAA13ZBInterceptor_pGvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "buildURLRequest",
+            "printedName": "buildURLRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE15buildURLRequest10Foundation0G0VyKF",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE15buildURLRequest10Foundation0G0VyKF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP",
+        "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestMethod",
+        "printedName": "RequestMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "DELETE",
+            "printedName": "DELETE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.RequestMethod.Type) -> ZBNetworkKitFramework.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod",
+                    "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "ZBNetworkKitFramework.RequestMethod",
+                        "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework13RequestMethodO6DELETEyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO6DELETEyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "GET",
+            "printedName": "GET",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.RequestMethod.Type) -> ZBNetworkKitFramework.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod",
+                    "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "ZBNetworkKitFramework.RequestMethod",
+                        "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework13RequestMethodO3GETyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO3GETyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "PATCH",
+            "printedName": "PATCH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.RequestMethod.Type) -> ZBNetworkKitFramework.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod",
+                    "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "ZBNetworkKitFramework.RequestMethod",
+                        "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework13RequestMethodO5PATCHyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO5PATCHyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "POST",
+            "printedName": "POST",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.RequestMethod.Type) -> ZBNetworkKitFramework.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod",
+                    "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "ZBNetworkKitFramework.RequestMethod",
+                        "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework13RequestMethodO4POSTyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO4POSTyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "PUT",
+            "printedName": "PUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBNetworkKitFramework.RequestMethod.Type) -> ZBNetworkKitFramework.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod",
+                    "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "ZBNetworkKitFramework.RequestMethod",
+                        "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ZBNetworkKitFramework13RequestMethodO3PUTyA2CmF",
+            "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO3PUTyA2CmF",
+            "moduleName": "ZBNetworkKitFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZBNetworkKitFramework.RequestMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "ZBNetworkKitFramework.RequestMethod",
+                    "usr": "s:21ZBNetworkKitFramework13RequestMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ZBNetworkKitFramework13RequestMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "ZBNetworkKitFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework13RequestMethodO8rawValueSSvp",
+            "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO8rawValueSSvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework13RequestMethodO8rawValueSSvg",
+                "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO8rawValueSSvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21ZBNetworkKitFramework13RequestMethodO",
+        "mangledName": "$s21ZBNetworkKitFramework13RequestMethodO",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBHttpClient",
+        "printedName": "ZBHttpClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBHttpClient",
+                "printedName": "ZBNetworkKitFramework.ZBHttpClient",
+                "usr": "s:21ZBNetworkKitFramework12ZBHttpClientC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ZBNetworkKitFramework12ZBHttpClientCACycfc",
+            "mangledName": "$s21ZBNetworkKitFramework12ZBHttpClientCACycfc",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addInterceptor",
+            "printedName": "addInterceptor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBInterceptor",
+                "printedName": "any ZBNetworkKitFramework.ZBInterceptor",
+                "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework12ZBHttpClientC14addInterceptoryyAA13ZBInterceptor_pF",
+            "mangledName": "$s21ZBNetworkKitFramework12ZBHttpClientC14addInterceptoryyAA13ZBInterceptor_pF",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asyncRequest",
+            "printedName": "asyncRequest(endpoint:responseModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBEndpointProvider",
+                "printedName": "any ZBNetworkKitFramework.ZBEndpointProvider",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework12ZBHttpClientC12asyncRequest8endpoint13responseModelxAA18ZBEndpointProvider_p_xmtYaKSeRzlF",
+            "mangledName": "$s21ZBNetworkKitFramework12ZBHttpClientC12asyncRequest8endpoint13responseModelxAA18ZBEndpointProvider_p_xmtYaKSeRzlF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asyncUpload",
+            "printedName": "asyncUpload(endpoint:responseModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBEndpointProvider",
+                "printedName": "any ZBNetworkKitFramework.ZBEndpointProvider",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework12ZBHttpClientC11asyncUpload8endpoint13responseModelxAA18ZBEndpointProvider_p_xmtYaKSeRzlF",
+            "mangledName": "$s21ZBNetworkKitFramework12ZBHttpClientC11asyncUpload8endpoint13responseModelxAA18ZBEndpointProvider_p_xmtYaKSeRzlF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadFile",
+            "printedName": "downloadFile(endpoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBEndpointProvider",
+                "printedName": "any ZBNetworkKitFramework.ZBEndpointProvider",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework12ZBHttpClientC12downloadFile8endpoint10Foundation4DataVAA18ZBEndpointProvider_p_tYaKF",
+            "mangledName": "$s21ZBNetworkKitFramework12ZBHttpClientC12downloadFile8endpoint10Foundation4DataVAA18ZBEndpointProvider_p_tYaKF",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21ZBNetworkKitFramework12ZBHttpClientC",
+        "mangledName": "$s21ZBNetworkKitFramework12ZBHttpClientC",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ZBNetworkClientProtocol",
+            "printedName": "ZBNetworkClientProtocol",
+            "usr": "s:21ZBNetworkKitFramework0A14ClientProtocolP",
+            "mangledName": "$s21ZBNetworkKitFramework0A14ClientProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBMultipartRequest",
+        "printedName": "ZBMultipartRequest",
+        "declKind": "Struct",
+        "usr": "s:21ZBNetworkKitFramework18ZBMultipartRequestV",
+        "mangledName": "$s21ZBNetworkKitFramework18ZBMultipartRequestV",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBNetworkClientProtocol",
+        "printedName": "ZBNetworkClientProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "asyncRequest",
+            "printedName": "asyncRequest(endpoint:responseModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBEndpointProvider",
+                "printedName": "any ZBNetworkKitFramework.ZBEndpointProvider",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework0A14ClientProtocolP12asyncRequest8endpoint13responseModelqd__AA18ZBEndpointProvider_p_qd__mtYaKSeRd__lF",
+            "mangledName": "$s21ZBNetworkKitFramework0A14ClientProtocolP12asyncRequest8endpoint13responseModelqd__AA18ZBEndpointProvider_p_qd__mtYaKSeRd__lF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZBNetworkKitFramework.ZBNetworkClientProtocol, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : ZBNetworkKitFramework.ZBNetworkClientProtocol, T : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asyncUpload",
+            "printedName": "asyncUpload(endpoint:responseModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBEndpointProvider",
+                "printedName": "any ZBNetworkKitFramework.ZBEndpointProvider",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework0A14ClientProtocolP11asyncUpload8endpoint13responseModelqd__AA18ZBEndpointProvider_p_qd__mtYaKSeRd__lF",
+            "mangledName": "$s21ZBNetworkKitFramework0A14ClientProtocolP11asyncUpload8endpoint13responseModelqd__AA18ZBEndpointProvider_p_qd__mtYaKSeRd__lF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ZBNetworkKitFramework.ZBNetworkClientProtocol, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : ZBNetworkKitFramework.ZBNetworkClientProtocol, T : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadFile",
+            "printedName": "downloadFile(endpoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBEndpointProvider",
+                "printedName": "any ZBNetworkKitFramework.ZBEndpointProvider",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework0A14ClientProtocolP12downloadFile8endpoint10Foundation4DataVAA18ZBEndpointProvider_p_tYaKF",
+            "mangledName": "$s21ZBNetworkKitFramework0A14ClientProtocolP12downloadFile8endpoint10Foundation4DataVAA18ZBEndpointProvider_p_tYaKF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBNetworkClientProtocol>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBNetworkClientProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addInterceptor",
+            "printedName": "addInterceptor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBInterceptor",
+                "printedName": "any ZBNetworkKitFramework.ZBInterceptor",
+                "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework0A14ClientProtocolP14addInterceptoryyAA13ZBInterceptor_pF",
+            "mangledName": "$s21ZBNetworkKitFramework0A14ClientProtocolP14addInterceptoryyAA13ZBInterceptor_pF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBNetworkClientProtocol>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBNetworkClientProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21ZBNetworkKitFramework0A14ClientProtocolP",
+        "mangledName": "$s21ZBNetworkKitFramework0A14ClientProtocolP",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBInterceptor",
+        "printedName": "ZBInterceptor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onRequest",
+            "printedName": "onRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP9onRequestyy10Foundation10URLRequestVzF",
+            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorP9onRequestyy10Foundation10URLRequestVzF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBInterceptor>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBInterceptor>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResponse",
+            "printedName": "onResponse(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorP10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBInterceptor>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBInterceptor>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRequest",
+            "printedName": "onRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorPAAE9onRequestyy10Foundation10URLRequestVzF",
+            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorPAAE9onRequestyy10Foundation10URLRequestVzF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBInterceptor>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBInterceptor>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResponse",
+            "printedName": "onResponse(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorPAAE10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorPAAE10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBInterceptor>",
+            "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBInterceptor>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP",
+        "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorP",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBLoggingInterceptor",
+        "printedName": "ZBLoggingInterceptor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onRequest",
+            "printedName": "onRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework20ZBLoggingInterceptorV9onRequestyy10Foundation10URLRequestVzF",
+            "mangledName": "$s21ZBNetworkKitFramework20ZBLoggingInterceptorV9onRequestyy10Foundation10URLRequestVzF",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResponse",
+            "printedName": "onResponse(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework20ZBLoggingInterceptorV10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "mangledName": "$s21ZBNetworkKitFramework20ZBLoggingInterceptorV10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21ZBNetworkKitFramework20ZBLoggingInterceptorV",
+        "mangledName": "$s21ZBNetworkKitFramework20ZBLoggingInterceptorV",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ZBInterceptor",
+            "printedName": "ZBInterceptor",
+            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP",
+            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBNetworkKit",
+        "printedName": "ZBNetworkKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(scheme:baseURL:publicKeyHash:refreshTokenEndpoint:defaultHeaders:globalInterceptors:refreshTokenRetryCount:defaultTimeout:resourceTimeout:isLogging:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any ZBNetworkKitFramework.ZBEndpointProvider)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBEndpointProvider",
+                    "printedName": "any ZBNetworkKitFramework.ZBEndpointProvider",
+                    "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any ZBNetworkKitFramework.ZBInterceptor]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any ZBNetworkKitFramework.ZBInterceptor]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBInterceptor",
+                        "printedName": "any ZBNetworkKitFramework.ZBInterceptor",
+                        "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework0aB0O9configure6scheme7baseURL13publicKeyHash20refreshTokenEndpoint14defaultHeaders18globalInterceptors0kL10RetryCount0N7Timeout08resourceT09isLoggingySS_S2SSgAA18ZBEndpointProvider_pSgSDyS2SGSgSayAA13ZBInterceptor_pGSgSiS2dSbtFZ",
+            "mangledName": "$s21ZBNetworkKitFramework0aB0O9configure6scheme7baseURL13publicKeyHash20refreshTokenEndpoint14defaultHeaders18globalInterceptors0kL10RetryCount0N7Timeout08resourceT09isLoggingySS_S2SSgAA18ZBEndpointProvider_pSgSDyS2SGSgSayAA13ZBInterceptor_pGSgSiS2dSbtFZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(access:refresh:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework0aB0O8setToken6access7refreshySS_SSSgtFZ",
+            "mangledName": "$s21ZBNetworkKitFramework0aB0O8setToken6access7refreshySS_SSSgtFZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearToken",
+            "printedName": "clearToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework0aB0O10clearTokenyyFZ",
+            "mangledName": "$s21ZBNetworkKitFramework0aB0O10clearTokenyyFZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21ZBNetworkKitFramework0aB0O",
+        "mangledName": "$s21ZBNetworkKitFramework0aB0O",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiRequest",
+        "printedName": "ApiRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework10ApiRequestV12wrappedValuexSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV12wrappedValuexSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework10ApiRequestV12wrappedValuexSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV12wrappedValuexSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "projectedValue",
+            "printedName": "projectedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiRequest",
+                "printedName": "ZBNetworkKitFramework.ApiRequest<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:21ZBNetworkKitFramework10ApiRequestV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework10ApiRequestV14projectedValueACyxGvp",
+            "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV14projectedValueACyxGvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiRequest",
+                    "printedName": "ZBNetworkKitFramework.ApiRequest<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:21ZBNetworkKitFramework10ApiRequestV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework10ApiRequestV14projectedValueACyxGvg",
+                "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV14projectedValueACyxGvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(endpoint:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiRequest",
+                "printedName": "ZBNetworkKitFramework.ApiRequest<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:21ZBNetworkKitFramework10ApiRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBNetworkClientProtocol",
+                "printedName": "any ZBNetworkKitFramework.ZBNetworkClientProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:21ZBNetworkKitFramework0A14ClientProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ZBNetworkKitFramework10ApiRequestV8endpoint6clientACyxGqd___AA0A14ClientProtocol_ptcAA18ZBEndpointProviderRd__lufc",
+            "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV8endpoint6clientACyxGqd___AA0A14ClientProtocol_ptcAA18ZBEndpointProviderRd__lufc",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.Decodable, τ_1_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework10ApiRequestV5fetchyyYaF",
+            "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV5fetchyyYaF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isLoading",
+            "printedName": "isLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework10ApiRequestV9isLoadingSbvp",
+            "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV9isLoadingSbvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework10ApiRequestV9isLoadingSbvg",
+                "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV9isLoadingSbvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZBNetworkKitFramework.ZBAPIError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBAPIError",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                    "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework10ApiRequestV5errorAA10ZBAPIErrorOSgvp",
+            "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV5errorAA10ZBAPIErrorOSgvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZBNetworkKitFramework.ZBAPIError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework10ApiRequestV5errorAA10ZBAPIErrorOSgvg",
+                "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV5errorAA10ZBAPIErrorOSgvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "publisher",
+            "printedName": "publisher()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Swift.Result<τ_0_0, ZBNetworkKitFramework.ZBAPIError>, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, ZBNetworkKitFramework.ZBAPIError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAPIError",
+                        "printedName": "ZBNetworkKitFramework.ZBAPIError",
+                        "usr": "s:21ZBNetworkKitFramework10ZBAPIErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework10ApiRequestV9publisher7Combine12AnyPublisherVys6ResultOyxAA10ZBAPIErrorOGs5NeverOGyF",
+            "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV9publisher7Combine12AnyPublisherVys6ResultOyxAA10ZBAPIErrorOGs5NeverOGyF",
+            "moduleName": "ZBNetworkKitFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21ZBNetworkKitFramework10ApiRequestV",
+        "mangledName": "$s21ZBNetworkKitFramework10ApiRequestV",
+        "moduleName": "ZBNetworkKitFramework",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DynamicProperty",
+            "printedName": "DynamicProperty",
+            "usr": "s:7SwiftUI15DynamicPropertyP",
+            "mangledName": "$s7SwiftUI15DynamicPropertyP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBRefreshTokenManager",
+        "printedName": "ZBRefreshTokenManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRefreshTokenManager",
+                "printedName": "ZBNetworkKitFramework.ZBRefreshTokenManager",
+                "usr": "s:21ZBNetworkKitFramework21ZBRefreshTokenManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework21ZBRefreshTokenManagerC6sharedACvpZ",
+            "mangledName": "$s21ZBNetworkKitFramework21ZBRefreshTokenManagerC6sharedACvpZ",
+            "moduleName": "ZBNetworkKitFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBRefreshTokenManager",
+                    "printedName": "ZBNetworkKitFramework.ZBRefreshTokenManager",
+                    "usr": "s:21ZBNetworkKitFramework21ZBRefreshTokenManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework21ZBRefreshTokenManagerC6sharedACvgZ",
+                "mangledName": "$s21ZBNetworkKitFramework21ZBRefreshTokenManagerC6sharedACvgZ",
+                "moduleName": "ZBNetworkKitFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "refreshToken",
+            "printedName": "refreshToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ZBNetworkKitFramework21ZBRefreshTokenManagerC07refreshE0yyYaKF",
+            "mangledName": "$s21ZBNetworkKitFramework21ZBRefreshTokenManagerC07refreshE0yyYaKF",
+            "moduleName": "ZBNetworkKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21ZBNetworkKitFramework21ZBRefreshTokenManagerC",
+        "mangledName": "$s21ZBNetworkKitFramework21ZBRefreshTokenManagerC",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 14,
+      "value": "\"CustomLogger\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 6,
+      "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1184,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/Log.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2092,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBHttpClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBHttpClient.swift",
+      "kind": "Array",
+      "offset": 301,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 6,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3792,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3820,
+      "length": 11,
+      "value": "\"image\/png\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3847,
+      "length": 11,
+      "value": "\"image\/gif\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3875,
+      "length": 12,
+      "value": "\"image\/tiff\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3903,
+      "length": 11,
+      "value": "\"image\/bmp\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3936,
+      "length": 17,
+      "value": "\"video\/quicktime\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3969,
+      "length": 11,
+      "value": "\"video\/mov\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3996,
+      "length": 11,
+      "value": "\"video\/mp4\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4023,
+      "length": 17,
+      "value": "\"application\/pdf\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4056,
+      "length": 17,
+      "value": "\"application\/vnd\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4095,
+      "length": 12,
+      "value": "\"text\/plain\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4129,
+      "length": 26,
+      "value": "\"application\/octet-stream\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkConfiguration.swift",
+      "kind": "Array",
+      "offset": 462,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 616,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKit.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 498,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 540,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 584,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 614,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKitWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 274,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKitWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2117,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBNetworkKitWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4008,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBSSLPinningSessionDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBSSLPinningSessionDelegate.swift",
+      "kind": "Array",
+      "offset": 418,
+      "length": 166,
+      "value": "[0x30, 0x82, 0x01, 0x22, 0x30, 0x0d, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01, 0x05, 0x00, 0x03, 0x82, 0x01, 0x0f, 0x00]"
+    }
+  ]
+}

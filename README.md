@@ -221,6 +221,7 @@ The `ZBNetworkKit.configure` method accepts the following parameters:
 - `accessTokenRequired`: Bearer token (default: true).
 - `timeoutInterval`: request timeout interval (default 60)
 - `interceptors`: Per-endpoint interceptors.
+- `avoidInterceptors`: use this to avoid the interceptors on request and response (default false)
 
 ### ZBHttpClient
 

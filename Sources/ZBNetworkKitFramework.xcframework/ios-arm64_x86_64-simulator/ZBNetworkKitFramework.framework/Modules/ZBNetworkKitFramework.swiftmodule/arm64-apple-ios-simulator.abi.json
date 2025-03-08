@@ -1827,6 +1827,48 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "avoidInterceptors",
+            "printedName": "avoidInterceptors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP17avoidInterceptorsSbvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP17avoidInterceptorsSbvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderP17avoidInterceptorsSbvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderP17avoidInterceptorsSbvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "buildURLRequest",
             "printedName": "buildURLRequest()",
@@ -2490,6 +2532,47 @@
                 "declKind": "Accessor",
                 "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE12interceptorsSayAA13ZBInterceptor_pGvg",
                 "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE12interceptorsSayAA13ZBInterceptor_pGvg",
+                "moduleName": "ZBNetworkKitFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "avoidInterceptors",
+            "printedName": "avoidInterceptors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE17avoidInterceptorsSbvp",
+            "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE17avoidInterceptorsSbvp",
+            "moduleName": "ZBNetworkKitFramework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ZBNetworkKitFramework18ZBEndpointProviderPAAE17avoidInterceptorsSbvg",
+                "mangledName": "$s21ZBNetworkKitFramework18ZBEndpointProviderPAAE17avoidInterceptorsSbvg",
                 "moduleName": "ZBNetworkKitFramework",
                 "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBEndpointProvider>",
                 "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBEndpointProvider>",
@@ -3351,17 +3434,10 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation4DataV"
               },
               {
                 "kind": "TypeNominal",
@@ -3393,8 +3469,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
-            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorP10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorP10onResponseyy10Foundation4DataVz_So13NSURLResponseCSgs5Error_pSgtF",
+            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorP10onResponseyy10Foundation4DataVz_So13NSURLResponseCSgs5Error_pSgtF",
             "moduleName": "ZBNetworkKitFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBInterceptor>",
             "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBInterceptor>",
@@ -3441,17 +3517,10 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation4DataV"
               },
               {
                 "kind": "TypeNominal",
@@ -3483,8 +3552,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorPAAE10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
-            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorPAAE10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "usr": "s:21ZBNetworkKitFramework13ZBInterceptorPAAE10onResponseyy10Foundation4DataVz_So13NSURLResponseCSgs5Error_pSgtF",
+            "mangledName": "$s21ZBNetworkKitFramework13ZBInterceptorPAAE10onResponseyy10Foundation4DataVz_So13NSURLResponseCSgs5Error_pSgtF",
             "moduleName": "ZBNetworkKitFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : ZBNetworkKitFramework.ZBInterceptor>",
             "sugared_genericSig": "<Self where Self : ZBNetworkKitFramework.ZBInterceptor>",
@@ -3560,17 +3629,10 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation4DataV"
               },
               {
                 "kind": "TypeNominal",
@@ -3602,8 +3664,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21ZBNetworkKitFramework20ZBLoggingInterceptorV10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
-            "mangledName": "$s21ZBNetworkKitFramework20ZBLoggingInterceptorV10onResponseyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtF",
+            "usr": "s:21ZBNetworkKitFramework20ZBLoggingInterceptorV10onResponseyy10Foundation4DataVz_So13NSURLResponseCSgs5Error_pSgtF",
+            "mangledName": "$s21ZBNetworkKitFramework20ZBLoggingInterceptorV10onResponseyy10Foundation4DataVz_So13NSURLResponseCSgs5Error_pSgtF",
             "moduleName": "ZBNetworkKitFramework",
             "declAttributes": [
               "AccessControl"
@@ -4290,6 +4352,40 @@
       },
       {
         "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZBNetworkKitFramework"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4470,6 +4566,13 @@
       "offset": 301,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBHttpClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1898,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBMultipartRequest.swift",
@@ -4666,6 +4769,13 @@
       "offset": 4008,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBRefreshTokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1309,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBNetworkKitFramework\/ZBNetworkKitFramework\/ZBNetworkKit\/ZBSSLPinningSessionDelegate.swift",

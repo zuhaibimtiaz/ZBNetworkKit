@@ -5,6 +5,7 @@ import Combine
 import CommonCrypto
 import Foundation
 import MobileCoreServices
+import Network
 import OSLog
 import Swift
 import SwiftUI
@@ -62,6 +63,7 @@ public protocol ZBEndpointProvider {
   var accessTokenRequired: Swift.Bool { get }
   var timeoutInterval: Foundation.TimeInterval? { get }
   var interceptors: [any ZBNetworkKitFramework.ZBInterceptor] { get }
+  var avoidInterceptors: Swift.Bool { get }
   func buildURLRequest() throws -> Foundation.URLRequest
 }
 public enum RequestMethod : Swift.String {
@@ -106,6 +108,9 @@ extension ZBNetworkKitFramework.ZBEndpointProvider {
   public var interceptors: [any ZBNetworkKitFramework.ZBInterceptor] {
     get
   }
+  public var avoidInterceptors: Swift.Bool {
+    get
+  }
   public func buildURLRequest() throws -> Foundation.URLRequest
 }
 final public class ZBHttpClient : ZBNetworkKitFramework.ZBNetworkClientProtocol {
@@ -126,15 +131,15 @@ public protocol ZBNetworkClientProtocol {
 }
 public protocol ZBInterceptor {
   func onRequest(_ request: inout Foundation.URLRequest)
-  func onResponse(_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?)
+  func onResponse(_ data: inout Foundation.Data, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?)
 }
 extension ZBNetworkKitFramework.ZBInterceptor {
   public func onRequest(_ request: inout Foundation.URLRequest)
-  public func onResponse(_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?)
+  public func onResponse(_ data: inout Foundation.Data, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?)
 }
 public struct ZBLoggingInterceptor : ZBNetworkKitFramework.ZBInterceptor {
   public func onRequest(_ request: inout Foundation.URLRequest)
-  public func onResponse(_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?)
+  public func onResponse(_ data: inout Foundation.Data, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?)
 }
 public enum ZBNetworkKit {
   public static func configure(scheme: Swift.String = "https", baseURL: Swift.String, publicKeyHash: Swift.String? = nil, refreshTokenEndpoint: (any ZBNetworkKitFramework.ZBEndpointProvider)? = nil, defaultHeaders: [Swift.String : Swift.String]?, globalInterceptors: [any ZBNetworkKitFramework.ZBInterceptor]?, refreshTokenRetryCount: Swift.Int = 0, defaultTimeout: Foundation.TimeInterval = 60, resourceTimeout: Foundation.TimeInterval = 90, isLogging: Swift.Bool = true)

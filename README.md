@@ -25,7 +25,7 @@ Or add it directly to your `Package.swift`:
 ```
 ## Configuration
 ### Usage
-- Start by importing `ZBNetworkKit`:
+- Start by importing `ZBNetworkKitFramework`:
 - Configure `ZBNetworkKit` with your `base URL`, `default headers`, and optional settings:
 ```swift
 import ZBNetworkKitFramework

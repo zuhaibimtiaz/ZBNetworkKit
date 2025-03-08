@@ -25,7 +25,7 @@ Or add it directly to your `Package.swift`:
 ```
 ## Configuration
 ### Usage
-- Start by importing `ZBNetworkKiet`:
+- Start by importing `ZBNetworkKit`:
 - Configure `ZBNetworkKit` with your `base URL`, `default headers`, and optional settings:
 ```swift
 import ZBNetworkKitFramework
@@ -228,11 +228,11 @@ The `ZBNetworkKit.configure` method accepts the following parameters:
 - `asyncUpload(endpoint:responseModel:)`: Multipart upload.
 - `downloadFile(endpoint:)`: Downloads raw `Data` from the specified endpoint, ideal for file
 
-###ZBApiRequest
+### ZBApiRequest
 
 - `@ZBApiRequest(endpoint:)`: SwiftUI wrapper.
 
-##Requirements
+## Requirements
 - iOS 13.0+
 - Xcode 13+
 - Swift 5.5+

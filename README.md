@@ -21,7 +21,7 @@ Add `ZBNetworkKit` to your project via Swift Package Manager:
 Or add it directly to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/zuhaibimtiaz/ZBNetworkKit.git", from: "1.0.0")
+.package(url: "https://github.com/zuhaibimtiaz/ZBNetworkKit.git", from: "1.0.1")
 ```
 ## Configuration
 ### Usage

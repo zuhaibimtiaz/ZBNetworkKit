@@ -1,6 +1,6 @@
 # ZBNetworkKit
 
-ZBNetworkKitFramework is a lightweight, modern networking library for Swift, designed for iOS and macOS. Built with Swift’s `async/await` concurrency model, it provides a clean and flexible way to perform HTTP requests with customizable headers, interceptors, and SwiftUI integration.
+ZBNetworkKitFramework is a lightweight, modern networking library for Swift, designed for iOS. Built with Swift’s `async/await` concurrency model, it provides a clean and flexible way to perform HTTP requests with customizable headers, interceptors, and SwiftUI integration.
 
 ## Features
 - **Async/Await Support**: Modern concurrency for network calls.

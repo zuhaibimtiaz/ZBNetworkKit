@@ -1,6 +1,6 @@
 # ZBNetworkKit
 
-ZBNetworkKitFramework is a lightweight, modern networking library for Swift, designed for iOS. Built with Swift’s `async/await` concurrency model, it provides a clean and flexible way to perform HTTP requests with customizable headers, interceptors, and SwiftUI integration.
+ZBNetworkKit is a lightweight, modern networking library for Swift, designed for iOS. Built with Swift’s `async/await` concurrency model, it provides a clean and flexible way to perform HTTP requests with customizable headers, interceptors, and SwiftUI integration.
 
 ## Features
 - **Async/Await Support**: Modern concurrency for network calls.
@@ -25,10 +25,10 @@ Or add it directly to your `Package.swift`:
 ```
 ## Configuration
 ### Usage
-- Start by importing `ZBNetworkKitFramework`:
+- Start by importing `ZBNetworkKit`:
 - Configure `ZBNetworkKit` with your `base URL`, `default headers`, and optional settings:
 ```swift
-import ZBNetworkKitFramework
+import ZBNetworkKit
 
     ZBNetworkKit.configure(
         scheme: "https",

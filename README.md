@@ -29,19 +29,6 @@ Or add it directly to your `Package.swift`:
 - Configure `ZBNetworkKit` with your `base URL`, `default headers`, and optional settings:
 ```swift
 import ZBNetworkKit
-
-    ZBNetworkKit.configure(
-        scheme: "https",
-        baseURL: "api.myapp.com",,
-        publicKeyHash: nil,
-        refreshTokenEndpoint: nil,
-        defaultHeaders: nil,
-        globalInterceptors: nil,
-        refreshTokenRetryCount: 0,
-        defaultTimeout: 60,
-        resourceTimeout: 90,
-        isLogging: true
-    )
     
     ZBNetworkKit.configure(
     .init( 

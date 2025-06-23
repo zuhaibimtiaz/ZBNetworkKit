@@ -37,9 +37,11 @@ struct ContentView: View {
             }
         }.onAppear {
             ZBNetworkKit.configure(
-                baseURL: "jsonplaceholder.typicode.com",
-                defaultHeaders: nil,
-                globalInterceptors: nil
+                .init(
+                    baseURL: .init(
+                        url: "jsonplaceholder.typicode.com"
+                    )
+                )
             )
         }
     }

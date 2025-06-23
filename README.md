@@ -42,6 +42,15 @@ import ZBNetworkKit
         resourceTimeout: 90,
         isLogging: true
     )
+    
+    ZBNetworkKit.configure(
+    .init( 
+    baseURL: .init(
+        url: "api.myapp.com", 
+        scheme: "https"
+            ),
+        )
+    )
 
 ```
 
@@ -134,12 +143,12 @@ struct UserListView: View {
 ### Defining an Interceptor
 ```swift
 struct CustomInterceptor: ZBInterceptor {
-    func onRequest(_ request: inout URLRequest) {
+    func onRequest(_ request: inout URLRequest) throws {
         print("Request URL: \(request.url?.absoluteString ?? "")")
         request.setValue("custom-value", forHTTPHeaderField: "X-Custom")
     }
     
-    func onResponse(_ data: Data?, _ response: URLResponse?, _ error: Error?) {
+    func onResponse(_ data: Data?, _ response: URLResponse?, _ error: Error?) throws {
         if let httpResponse = response as? HTTPURLResponse {
             print("Response Status: \(httpResponse.statusCode)")
         }
@@ -228,6 +237,9 @@ The `ZBNetworkKit.configure` method accepts the following parameters:
 - `asyncRequest(endpoint:responseModel:)`: Standard request.
 - `asyncUpload(endpoint:responseModel:)`: Multipart upload.
 - `downloadFile(endpoint:)`: Downloads raw `Data` from the specified endpoint, ideal for file
+- `download(endpoint: progressHandler:)`: Download with progressHandler
+- `addInterceptor(_ interceptor:)`: add Interceptor
+
 
 ### ZBApiRequest
 

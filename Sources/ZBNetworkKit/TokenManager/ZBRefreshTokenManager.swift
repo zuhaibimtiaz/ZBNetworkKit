@@ -6,21 +6,25 @@
 //
 import Foundation
 
+/// An actor for managing the refresh of authentication tokens in a thread-safe manner.
 public actor ZBRefreshTokenManager {
+    /// The shared singleton instance of the refresh token manager.
     public static let shared = ZBRefreshTokenManager()
+
+    /// The current refresh task, if any, to prevent concurrent refresh attempts.
     private var refreshTask: Task<Void, Error>?
-    private let lock = NSLock()
-    
+
+    /// Private initializer to enforce singleton pattern.
     private init() {}
-    
+
+    /// Refreshes the authentication tokens using the configured endpoint.
+    /// - Throws: An error if the refresh request fails or no endpoint is configured.
     public func refreshToken() async throws {
-        lock.lock()
-        if refreshTask == nil, let endpoint = ZBNetworkConfiguration.shared.refreshTokenEndpoint {
+        if refreshTask == nil,
+            let endpoint = ZBNetworkConfiguration.shared.refreshTokenEndpoint {
             refreshTask = Task {
                 defer {
-                    lock.lock()
                     refreshTask = nil
-                    lock.unlock()
                 }
                 
                 let client = ZBHttpClient()
@@ -29,10 +33,9 @@ public actor ZBRefreshTokenManager {
                     let refreshToken: String
                 }
                 let response = try await client.asyncRequest(endpoint: endpoint, responseModel: TokenResponse.self)
-                await ZBTokenManager.shared.setTokens(access: response.accessToken, refresh: response.refreshToken)
+                ZBTokenManager.shared.setTokens(access: response.accessToken, refresh: response.refreshToken)
             }
         }
-        lock.unlock()
         
         if let task = refreshTask {
             try await task.value

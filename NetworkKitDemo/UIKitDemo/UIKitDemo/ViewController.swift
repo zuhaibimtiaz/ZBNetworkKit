@@ -23,14 +23,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ZBNetworkKit.configure(
-            baseURL: "jsonplaceholder.typicode.com", // Default base URL
-            publicKeyHash: nil, // Add if using SSL pinning
-            refreshTokenEndpoint: nil,
-            defaultHeaders: nil,
-            globalInterceptors: nil,
-            isLogging: true
-        )
+        ZBNetworkKit
+            .configure(
+                .init(
+                    baseURL: .init(url: "jsonplaceholder.typicode.com"),
+                    isLogging: true
+                )
+            )
         setupUI()
         setupBindings()
         fetchUsers()
